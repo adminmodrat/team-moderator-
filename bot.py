@@ -143,7 +143,7 @@ def get_next_post_type() -> str:
 
 def get_delay_seconds() -> int:
     # Random delay between 1 and 2 hours
-    return random.randint(3600, 7200)
+    return random.randint(1800, 3600)
 
 
 async def run_bot():
@@ -169,7 +169,7 @@ async def run_bot():
             logger.info(f"Generating post type: {post_type}")
             post_text = await call_gemini(prompt)
 
-            logger.info(f"Sending post to Telegram:\n{post_text[:100]}...")
+            logger.info(f"Sending post to Telegram:\n{post_text[:500]}...")
             await send_telegram(post_text)
 
             delay = get_delay_seconds()
