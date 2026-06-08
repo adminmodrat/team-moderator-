@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8576842011:AAEw80HhI1H7Do_jSHwSEQ-pE82zXJPodW4")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "1003994052181")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6IKLGgqvdXQR1iSBHJnN2Jmy0lNdUwDY0sAGIniwUnw")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "8576842011:AAHWyEfSuOOOr7wVqQF6urrVdceTcpmueg8")
 
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
 
