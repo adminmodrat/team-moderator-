@@ -9,7 +9,7 @@ import json
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8576842011:AAEw80HhI1H7Do_jSHwSEQ-pE82zXJPodW4")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8576842011:AAEw80HhI1H7DojSHwSEQ-pE82zXJPodW4")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "-1001003994052181")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "8576842011:AAHWyEfSuOOOr7wVqQF6urrVdceTcpmueg8")
 
