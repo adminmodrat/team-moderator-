@@ -142,7 +142,7 @@ def get_next_post_type() -> str:
 
 
 def get_delay_seconds() -> int:
-    # Random delay between 1 and 2 hours
+    # Random delay between 30 60 mins
     return random.randint(1800, 3600)
 
 
