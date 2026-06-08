@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8942717434:AAHLiD1pnbl7ba5JtwEa5QijYf1LQ5CiJ08")
-TELEGRAM_CHAT_ID = os.environ.get("8012328208", "-1001003994052181")
+TELEGRAM_CHAT_ID = os.environ.get("", "-1001003994052181")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6LXaquKpXDmtK4CzHgbK2ZsXbOFqJ3Pupm1g3YadP6lA")
 
 # ─── MEMEGUARDIAN SYSTEM PROMPT ───────────────────────────────────────────────
