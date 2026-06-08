@@ -122,7 +122,7 @@ async def call_gemini(prompt: str) -> str:
 
 
 async def send_telegram(text: str):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{-1001003994052181}/sendMessage"
     payload = {
         "chat_id": TELEGRAM_CHAT_ID,
         "text": text,
