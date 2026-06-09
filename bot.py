@@ -7,7 +7,7 @@ import httpx
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "https://core.telegram.org/bots/api:8576842011:AAHWyEfSuOOOr7wVqQF6urrVdceTcpmueg8")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8576842011:AAHWyEfSuOOOr7wVqQF6urrVdceTcpmueg8")
 TELEGRAM_CHAT_ID = os.environ.get("", "-1001003994052181")
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6LXaquKpXDmtK4CzHgbK2ZsXbOFqJ3Pupm1g3YadP6lA")
 
